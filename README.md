@@ -1,5 +1,7 @@
 # 🏆 Customer Segmentation - Mismatched Clusters Analysis
 
+Deployed link : https://customersegmentation-6s99huyf9ifkafk9p9cuyy.streamlit.app/
+
 This project analyzes customer segmentation using **K-Means** and **Hierarchical Clustering**. The focus is on identifying mismatched customers—those assigned to different clusters by the two models.
 
 ## 📌 Key Features
