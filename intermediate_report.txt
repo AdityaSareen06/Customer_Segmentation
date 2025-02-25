@@ -1,0 +1,60 @@
+**📄 FINAL SUMMARY REPORT: CUSTOMER SEGMENTATION**
+
+### **1️⃣ Project Overview**
+This report summarizes the customer segmentation analysis performed using **K-Means** and **Hierarchical Clustering**. The goal was to group customers based on their annual income and spending behavior to help businesses personalize their strategies.
+
+
+### **2️⃣ Clustering Results & Interpretation**
+#### **🔹 K-Means Clustering Results**
+- **Optimal K (Number of Clusters)**: 2
+- **Cluster 0**:
+  - 📌 Average Age: 45.1 years
+  - 💰 Average Annual Income: 114.7 k$
+  - 🛍️ Average Spending Score: 47.9
+  - 🔵 **Moderate Spending Customers**
+  - 💳 **High-Income Group**
+- **Cluster 1**:
+  - 📌 Average Age: 43.4 years
+  - 💰 Average Annual Income: 42.8 k$
+  - 🛍️ Average Spending Score: 51.6
+  - 🟢 **High Spending Customers**
+  - 🏡 **Middle/Lower Income Group**
+
+
+#### **🔹 Hierarchical Clustering Results**
+- **Optimal K (Number of Clusters)**: 2
+- **Cluster 0**:
+  - 📌 Average Age: 44.3 years
+  - 💰 Average Annual Income: 49.0 k$
+  - 🛍️ Average Spending Score: 49.2
+  - 🔵 **Moderate Spending Customers**
+  - 🏡 **Middle/Lower Income Group**
+- **Cluster 1**:
+  - 📌 Average Age: 44.2 years
+  - 💰 Average Annual Income: 120.2 k$
+  - 🛍️ Average Spending Score: 50.5
+  - 🟢 **High Spending Customers**
+  - 💳 **High-Income Group**
+
+
+### **3️⃣ Comparing K-Means vs. Hierarchical Clustering**
+- **Overall Alignment**: ✅ Both clustering methods produced similar groups, but **41 customers were assigned differently**.
+- **Key Differences**: K-Means had **one segment with lower income but higher spending**, while Hierarchical had a more **income-diverse high-spending group**.
+
+
+### **4️⃣ Business Applications & Insights**
+#### **📌 How Businesses Can Use These Clusters**
+- **Cluster 0 (Moderate Spenders, High-Income)**
+  - **Marketing Strategy**: Premium services, loyalty programs.
+  - **Targeted Offers**: Upselling exclusive products or memberships.
+- **Cluster 1 (High Spenders, Lower Income)**
+  - **Marketing Strategy**: Discounts, installment plans, budget-friendly options.
+  - **Targeted Offers**: Cashback rewards, limited-time promotions.
+
+
+
+### **✅ Conclusion**
+This segmentation provides valuable insights into customer spending behavior. It enables businesses to **personalize marketing strategies, improve customer retention, and optimize product offerings**.
+
+📊 **All outputs (CSV files & visualizations) are stored for reference.**
+

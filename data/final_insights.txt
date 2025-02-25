@@ -1,0 +1,54 @@
+Analysis of Mismatched Customers in Customer Segmentation
+1️⃣ Overview
+In this project, we performed customer segmentation using K-Means Clustering and Hierarchical Clustering. Upon comparison, 39 customers were assigned to different clusters by the two models, indicating a mismatch. This analysis focuses on understanding these mismatches and deriving meaningful insights.
+
+2️⃣ Key Findings from Mismatched Customers
+📊 Statistical Summary of Mismatched Customers
+Metric	Age	Annual Income (k)	Spending Score (0-100)
+Mean	50	85.49	36.28
+Min	20	77.21	5
+Max	69	94.55	100
+25th %	38.5	82.01	17
+50th %	50	85.35	32
+75th %	61.5	89.06	45.5
+🔹 Key Observations
+Age Distribution: The average age is 50 years, with most customers between 38.5 and 61.5 years old.
+Annual Income: These customers have high incomes ranging from 77k to 94k.
+Spending Score: The spending score varies widely, from as low as 5 to 100, indicating significant behavioral differences.
+💰 Spending Behavior Analysis
+KMeans Cluster	Spending Behavior	Count
+1	High	5
+1	Medium	12
+1	Low	22
+🔹 Key Observations
+Majority (22 customers) have Low Spending Behavior, despite high income.
+12 customers show Medium Spending Behavior, balancing saving and spending.
+Only 5 customers exhibit High Spending Behavior, suggesting that only a small portion of high-income individuals are high spenders.
+3️⃣ Insights & Interpretation
+💡 Why are these mismatches occurring?
+
+Divergent Spending Behavior: The low spending behavior of high-income customers could be causing differences in clustering logic between the two models.
+Cluster Boundaries in Hierarchical Clustering vs K-Means: Hierarchical clustering may be capturing different patterns in spending habits, leading to some customers being grouped differently.
+Possible Overlap in Customer Profiles: Customers with similar incomes but different spending scores may not be easily separable, leading to model disagreements.
+💡 What does this mean for customer segmentation?
+
+These mismatched customers cannot be classified purely based on income.
+Spending behavior plays a critical role in defining meaningful customer segments.
+The K-Means model might be more suitable for capturing spending patterns effectively.
+4️⃣ Recommendations & Next Steps
+✅ Refine Clustering Model
+
+Consider adjusting K-Means hyperparameters (e.g., cluster count, distance metrics).
+Investigate whether GMM (Gaussian Mixture Models) can better handle spending score variations.
+✅ Marketing Implications
+
+Targeted Campaigns: Customers with high income but low spending may require incentives to increase spending.
+Personalized Recommendations: Use different strategies for low vs. high spenders despite similar income levels.
+Loyalty Programs: Offer discounts or cashback incentives to encourage spending among low-spending customers.
+✅ Visualization & Dashboard
+
+Develop an interactive dashboard to allow real-time analysis of customer segmentation.
+Include filtering options based on income, spending behavior, and age groups.
+Compare K-Means clusters vs. hierarchical clusters dynamically.
+Conclusion
+The mismatches in customer segmentation highlight the complex interplay between income and spending behavior. The findings suggest that spending behavior should be prioritized over income for effective segmentation. Moving forward, we will build an interactive dashboard to make these insights more actionable and accessible.   

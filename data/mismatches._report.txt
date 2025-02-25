@@ -1,0 +1,62 @@
+# Mismatched Customers Analysis Report
+
+## **Overview**
+This report provides an analysis of customers whose cluster assignments differed between K-Means and Hierarchical Clustering. Understanding these mismatches helps in refining clustering models and identifying unique customer segments that may not fit conventional patterns.
+
+---
+
+## **1. Age Distribution of Mismatched Customers**
+
+- **Mean Age:** 50 years
+- **Age Range:** 20 to 69 years
+- **75% of mismatched customers are older than 38.5 years**
+- **Key Insight:** Mismatched customers are predominantly **middle-aged and senior individuals**, suggesting that older customers may have more complex spending patterns or behaviors that lead to inconsistent clustering.
+
+---
+
+## **2. Annual Income Distribution of Mismatched Customers**
+
+- **Mean Annual Income:** 85.49k
+- **Income Range:** 77.2k to 94.5k
+- **75% of mismatched customers earn more than 82k**
+- **Key Insight:** Mismatched customers tend to belong to the **higher-income bracket**. The clustering models may struggle to separate them effectively due to similarities in their spending behavior despite income differences.
+
+---
+
+## **3. Spending Score Distribution of Mismatched Customers**
+
+- **Mean Spending Score:** 36.28 out of 100
+- **Spending Score Range:** 5 to 100
+- **Key Insight:** Mismatched customers show **a broad range of spending behaviors**, with no dominant trend. This suggests that spending habits alone may not be a defining characteristic for these customers.
+
+---
+
+## **4. Spending Behavior Distribution of Mismatched Customers**
+
+| Spending Behavior | Count | Percentage |
+|------------------|------|------------|
+| **Low**         | 22   | 56%        |
+| **Medium**      | 12   | 31%        |
+| **High**        | 5    | 13%        |
+
+- **Key Insight:** The majority (56%) of mismatched customers are **low spenders**, with another 31% classified as medium spenders. This indicates that spending behavior differences might play a significant role in why these customers were classified differently across models.
+
+---
+
+## **Final Observations & Next Steps**
+
+📌 **Key Takeaways:**
+- The mismatched customers **skew older (middle-aged & senior)**.
+- They **earn relatively high incomes (above 77k)**.
+- **Most are low to medium spenders**.
+- Spending behavior **varies significantly**, which may contribute to classification differences.
+
+🚀 **Next Steps:**
+- Use these insights to refine segmentation strategies and enhance clustering accuracy.
+- Design a **dashboard** to visualize and explore mismatched customer trends interactively.
+- Finalize these findings in the project report before moving to further enhancements.
+
+---
+
+This report serves as a foundational step before building the web dashboard, ensuring that we understand the characteristics of mismatched customers and their implications for customer segmentation strategies.
+

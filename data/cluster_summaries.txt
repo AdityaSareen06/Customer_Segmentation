@@ -1,0 +1,32 @@
+🔹 **K-Means Clustering Summary** 🔹
+
+**Cluster 0:**
+- 📌 Average Age: 45.1 years
+- 💰 Average Annual Income: 114.7 k$
+- 🛍️ Average Spending Score: 47.9
+  - 🔵 **Moderate Spending Customers**
+  - 💳 **High-Income Group**
+
+**Cluster 1:**
+- 📌 Average Age: 43.4 years
+- 💰 Average Annual Income: 42.8 k$
+- 🛍️ Average Spending Score: 51.6
+  - 🟢 **High Spending Customers**
+  - 🏡 **Middle/Lower Income Group**
+
+
+🔹 **Hierarchical Clustering Summary** 🔹
+
+**Cluster 0:**
+- 📌 Average Age: 44.3 years
+- 💰 Average Annual Income: 49.0 k$
+- 🛍️ Average Spending Score: 49.2
+  - 🔵 **Moderate Spending Customers**
+  - 🏡 **Middle/Lower Income Group**
+
+**Cluster 1:**
+- 📌 Average Age: 44.2 years
+- 💰 Average Annual Income: 120.2 k$
+- 🛍️ Average Spending Score: 50.5
+  - 🟢 **High Spending Customers**
+  - 💳 **High-Income Group**
