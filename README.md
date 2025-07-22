@@ -1,4 +1,4 @@
-# 🏆 Customer Segmentation - Mismatched Clusters Analysis
+# Customer Segmentation - Mismatched Clusters Analysis
 
 Deployed link : https://customersegmentation-6s99huyf9ifkafk9p9cuyy.streamlit.app/
 
@@ -13,7 +13,7 @@ This project analyzes customer segmentation using **K-Means** and **Hierarchical
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1️⃣ Clone the Repository
 ```bash
